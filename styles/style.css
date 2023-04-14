@@ -188,7 +188,7 @@ body{
 }
 
 @media(max-width: 900px){
-    form{
+    .profile{
         width: 100px;
 
     }
