@@ -116,6 +116,15 @@ body{
 .info{
     display: flex;
     align-items: center;
+    margin: 10%;
+    text-align: justify;
+    width: 1fr;
+    font-size: 14px;
+    color: white;
+    text-shadow: 1px 0px 0px rgba(30, 30, 30, 0.2), 
+    0px 1px 0px rgba(30, 30, 30, 0.2), 
+    -1px 0px 0px rgba(30, 30, 30, 0.2), 
+    0px -1px 0px rgba(30, 30, 30, 0.2);
 }
 
 .data{
@@ -176,7 +185,7 @@ body{
 }
 
 .link{
-    color: #FF6100;
+    color: white;
     text-shadow: 0 2px 4px rgba(10, 10, 10, 0.2);
 }
 
