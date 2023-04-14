@@ -193,11 +193,11 @@ body{
 
     }
 
-    .section-wrapper{
+    .info-wrapper{
         width: 490px;
     }
 
-    .card-wrapper{
+    .grid-general{
         grid-template-columns: repeat(2, 1fr);
     }
 }
@@ -208,11 +208,11 @@ body{
 
     }
 
-    .section-wrapper{
+    .info-wrapper{
         width: 246px;
     }
 
-    .card-wrapper{
+    .grid-general{
         grid-template-columns: 1fr;
     }
 }
