@@ -186,3 +186,33 @@ body{
     gap: 10px;
     text-shadow: 0 2px 4px rgba(10, 10, 10, 0.2);
 }
+
+@media(max-width: 900px){
+    form{
+        width: 100px;
+
+    }
+
+    .section-wrapper{
+        width: 490px;
+    }
+
+    .card-wrapper{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(max-width: 600px){
+    .profile{
+        width: 90px;
+
+    }
+
+    .section-wrapper{
+        width: 246px;
+    }
+
+    .card-wrapper{
+        grid-template-columns: 1fr;
+    }
+}
